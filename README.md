@@ -1,7 +1,7 @@
 # What is it?
 
-A dead simple handlebars helpers that takes file name and inlines its contents (utf-8 encoding is used to read files).
-Unlike `handlebars-inline`, it does not optimizes SVG files.
+A dead simple handlebars helper that takes file name and inserts its contents (utf-8 encoding is used to read files).
+Unlike `handlebars-inline`, it does not optimize SVG files.
 
 # Usage
 
@@ -15,7 +15,7 @@ In your handlebars template, write:
 {{inline "filename.txt"}}
 ```
 
-You can inline SVG or any other file, but do not forget that handlebars escapes HTML by default, so you need triple slashes:
+You can inline SVG or any other file containing tags, but do not forget that handlebars escapes HTML by default, so you need triple slashes:
 
 ```handlebars
 {{{inline "filename.svg"}}}
