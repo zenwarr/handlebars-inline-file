@@ -1,0 +1,25 @@
+{
+  "name": "handlebars-inline-file",
+  "version": "1.0.0",
+  "description": "Dead simple handlebars helper for inlining text files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenwarr/handlebars-inline-file.git"
+  },
+  "keywords": [
+    "handlebars",
+    "file",
+    "inline",
+    "simple"
+  ],
+  "author": "zenwarr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenwarr/handlebars-inline-file/issues"
+  },
+  "homepage": "https://github.com/zenwarr/handlebars-inline-file#readme"
+}
